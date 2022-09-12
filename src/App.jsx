@@ -1,5 +1,5 @@
 import './App.css';
-import { Form } from './components/Form';
+import { FormHook } from './components/FormHook';
 import { Header } from './components/Header';
 import { PatientList } from './components/PatientList';
 function App() {
@@ -7,7 +7,7 @@ function App() {
       <div className='container mx-auto mt-20'>
          <Header />
          <div className='md:flex mt-12'>
-            <Form />
+            <FormHook />
             <PatientList />
          </div>
       </div>

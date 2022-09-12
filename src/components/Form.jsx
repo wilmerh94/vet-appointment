@@ -47,12 +47,15 @@ export const Form = () => {
                </label>
                <input
                   id='petName'
+                  //  border-red-700
                   className='border w-full p-2 mt-2 placeholder-gray-400 rounded-lg focus:shadow-outline'
                   type='text'
                   placeholder='Pet Name'
                   value={petName}
                   onChange={handleChange}
                />
+               {/* {error.firstName && <ErrorForm message={error.firstName} />}
+               errors.firstName?.message */}
             </div>
             <div className='mb-5'>
                <label
